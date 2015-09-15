@@ -1,0 +1,7 @@
+:set gvimpath=C:\Program Files (x86)\Vim\vim73\gvim.exe
+:set gvimargs={file} "+norm {line}G0{col}lhzz"
+:nnoremap <C-G> :vim<CR>
+colorscheme desert
+syntax enable
+syntax on
+imap jj <ESC>
